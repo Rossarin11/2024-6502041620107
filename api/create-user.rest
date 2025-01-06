@@ -1,23 +1,10 @@
 # Identification(Register)
-POST http://localhost:8080/auth/local
+POST http://localhost:8080/api/auth/local
 Content-Type: application/json
 Authorization: Bearer 2cd4179f0ebfaf5c0198507f451fb3f07c1ca52a205fcf1998dc43a473fc8ceb5f0e9a9b6eda2a8198714cb2da6243d11bd7373e9b3487059b12dd7dd4580c940af02f31a3c45e044b26c566cc2712439bec3be2eb02834d631c79f4a208da3eff1b171f706576f7b4c75ee768d8f8b9149f2094c67badb25d1f0153da521ad
 
 {
-    "username":"Rossarin",
+    "username":"Rossarin34",
     "email":"s6502041620107@email.kmutnb.ac.th",
-    "password":"12345"
-
-}
-
-
-
-
-#Authentication(Login)
-POST http://localhost:8080/auth/local
-Content-Type: application/json
-
-{
-"identifier": "Rossarin",
-"password": "12345"
+    "password":"123456"
 }
