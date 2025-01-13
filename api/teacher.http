@@ -1,10 +1,9 @@
-# Identification(Register)
-POST http://localhost:8080/api/auth/local
-Content-Type: application/json
+POST http://localhost:8080/api/teachers
 Authorization: Bearer 85a980c34f7c064262dd0a5582f66266b52772538e3366d90deba4ef95c9e493bfddf20c1fe3ceb86b9ec2a021b13c18f61208ef887c4566bfd6c6100acf394437fa049d91cd98d9dce3fa9b71d5fe659414c8902790cea584dbe78a32997d52b7055f8773ea58489e1f3649b2d01b616af60b8d48bcb7427bc638a87106b8a5
+Content-Type: application/json
 
 {
-    "username":"Rossarin4",
-    "email":"s6502041620107@email.kmutnb.ac.th",
-    "password":"123456"
+  "data": {
+    "name": "Prawee Wongsa"
+  }
 }
